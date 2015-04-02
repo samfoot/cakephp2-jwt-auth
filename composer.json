@@ -1,18 +1,14 @@
 {
-	"name": "burzum/cakephp-bz-utils",
-	"type": "cakephp-plugin",
-	"description": "Tool collection for CakePHP",
-	"keywords": ["rbac", "helper", "view", "component", "table", "log"],
-	"homepage": "http://github.com/burzum/cakephp-bz-utils",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Florian Krämer",
-			"homepage": "http://florian-kraemer.net"
-		}
-	],
-	"minimum-stability": "dev",
-	"require": {
-		"php": ">=5.3.2"
-	}
+    "name": "t73biz/cakephp-jwt-auth",
+    "description": "Cakephp 2 JWT Authentication",
+    "require": {
+        "firebase/php-jwt": "~2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronald Chaplin",
+            "email": "rchaplin@t73biz.com"
+        }
+    ]
 }
