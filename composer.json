@@ -1,5 +1,5 @@
 {
-    "name": "t73biz/cakephp-jwt-auth",
+    "name": "t73biz/cakephp2-jwt-auth",
     "description": "Cakephp 2 JWT Authentication",
     "require": {
         "firebase/php-jwt": "~2.0"
@@ -9,6 +9,9 @@
         {
             "name": "Ronald Chaplin",
             "email": "rchaplin@t73biz.com"
+        },
+        {
+            "name": "Florian Krämer"
         }
     ]
 }
