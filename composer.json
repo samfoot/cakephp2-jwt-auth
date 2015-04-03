@@ -23,11 +23,6 @@
         "firebase/php-jwt": "~2.0",
         "composer/installers": "*"
     },
-    "autoload": {
-        "psr-4": {
-            "T73Biz\\JwtAuth\\": "src"
-        }
-    },
     "extra": {
         "installer-name": "JwtAuth"
     }
