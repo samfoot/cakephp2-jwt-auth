@@ -1,6 +1,6 @@
-# BzUtils Plugin for CakePHP #
+# CakePHP 2.x JWT Authentication #
 
-This plugin is a collection of CakePHP utils.
+This plugin is a CakePHP 2.x Authentication component and view helper for JWT.
 
 ## Components ##
 
@@ -8,11 +8,7 @@ This plugin is a collection of CakePHP utils.
 
 ## Helpers
 
-* TableHelper - Table Output Helper using anonymous callbacks
-
-## Libs
-
-* Log/Engine/ExtendedFileLog - Automatically adds the line number and file to the log from where log() was called
+* AuthHelper - Utility functions for helping with the authentication of users.
 
 ## Requirements ##
 
@@ -21,11 +17,12 @@ This plugin is a collection of CakePHP utils.
 
 ## Support ##
 
-For support and feature request, please visit the [BzUtils Plugin Support Site](https://github.com/burzum/BzUtils/issues).
+For support and feature request, please visit the [JWT Authentication Plugin Support](https://github.com/t73biz/cakephp2-jwt-auth/issues) section.
 
 ## License ##
 
 Copyright 2011 - 2014, [Florian Krämer](http://github.com/burzum)
+Copyright 2015, [Ronald Chaplin](http://github.com/t73biz)
 
 Licensed under [The MIT License](http://www.opensource.org/licenses/mit-license.php)<br/>
 Redistributions of files must retain the above copyright notice.
@@ -35,3 +32,11 @@ Redistributions of files must retain the above copyright notice.
 Copyright 2011 - 2014
 Florian Krämer
 http://github.com/burzum
+
+Copyright 2015
+Ronald Chaplin
+http://github.com/t73biz
+
+## Version ##
+
+1.0.0
