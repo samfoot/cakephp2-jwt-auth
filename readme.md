@@ -36,3 +36,7 @@ http://github.com/burzum
 Copyright 2015
 Ronald Chaplin
 http://github.com/t73biz
+
+## Version ##
+
+1.0.0
