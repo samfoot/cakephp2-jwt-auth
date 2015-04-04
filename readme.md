@@ -4,7 +4,7 @@ This plugin is a CakePHP 2.x Authentication component and view helper for JWT.
 
 ## Components ##
 
-* Auth/SimpleRbacAuthorize - Basic multi-role non database RBAC, using an array as permission map
+* Auth/JwtTokeAuthenticate - A JSON Web Token implementation for CakePHP 2.6.x
 
 ## Helpers
 
@@ -13,7 +13,7 @@ This plugin is a CakePHP 2.x Authentication component and view helper for JWT.
 ## Requirements ##
 
 * PHP version: PHP 5.3+
-* CakePHP version: 2.0 Stable
+* CakePHP version: 2.6 Stable
 
 ## Support ##
 
@@ -39,4 +39,15 @@ http://github.com/t73biz
 
 ## Version ##
 
-1.0.1
+1.0.6
+
+
+## Installation ##
+
+```composer require t73biz/cakephp2-jwt-auth 1.0.6```
+
+This will install into the Plugin directory. To run the tests, simply navigate to your webroot/test.php and follow the links for the test cases for the Authentication Adapter.
+ 
+## TODO ##
+
+Implement an end to end example for inside clients and 3rd party client usage.
