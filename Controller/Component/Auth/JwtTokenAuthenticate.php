@@ -25,6 +25,7 @@ App::uses('BaseAuthenticate', 'Controller/Component/Auth');
  * @license MIT
  * @link https://github.com/ceeram/Authenticate
  */
+
 class JwtTokenAuthenticate extends BaseAuthenticate
 {
 
