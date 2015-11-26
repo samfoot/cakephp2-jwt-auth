@@ -18,6 +18,7 @@
         {
             "name": "Florian Krämer"
         }
+    ],
     "require": {
         "firebase/php-jwt": "~2.0",
         "composer/installers": "*",
