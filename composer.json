@@ -21,10 +21,12 @@
     ],
     "require": {
         "firebase/php-jwt": "~2.0",
-        "composer/installers": "*",
-        "phpunit/phpunit": "3.*"
+        "composer/installers": "*"
     },
     "extra": {
         "installer-name": "JwtAuth"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.*"
     }
 }
