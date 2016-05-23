@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9cd743ac48c713559447f02b5add900",
+    "hash": "86da446d408f8e5286fb8c89494e4e64",
+    "content-hash": "c66f899faa66de208b93475c14c8a708",
     "packages": [
         {
             "name": "composer/installers",
@@ -102,6 +103,53 @@
             "time": "2015-02-18 17:17:01"
         },
         {
+            "name": "firebase/php-jwt",
+            "version": "2.0.0",
+            "target-dir": "Firebase/PHP-JWT",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "ffcfd888ce1e4f2d70cac2dc9b7301038332fe57"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/ffcfd888ce1e4f2d70cac2dc9b7301038332fe57",
+                "reference": "ffcfd888ce1e4f2d70cac2dc9b7301038332fe57",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Authentication/",
+                    "Exceptions/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "time": "2015-04-01 18:46:38"
+        }
+    ],
+    "packages-dev": [
+        {
             "name": "doctrine/instantiator",
             "version": "1.0.4",
             "source": {
@@ -154,51 +202,6 @@
                 "instantiate"
             ],
             "time": "2014-10-13 12:58:55"
-        },
-        {
-            "name": "firebase/php-jwt",
-            "version": "2.0.0",
-            "target-dir": "Firebase/PHP-JWT",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "ffcfd888ce1e4f2d70cac2dc9b7301038332fe57"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/ffcfd888ce1e4f2d70cac2dc9b7301038332fe57",
-                "reference": "ffcfd888ce1e4f2d70cac2dc9b7301038332fe57",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "Authentication/",
-                    "Exceptions/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Neuman Vong",
-                    "email": "neuman+pear@twilio.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Anant Narayanan",
-                    "email": "anant@php.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-            "homepage": "https://github.com/firebase/php-jwt",
-            "time": "2015-04-01 18:46:38"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -557,60 +560,56 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "4.6.1",
+            "version": "3.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "08b2aacdd8433abbba468f995d6d64b76a7a62ec"
+                "reference": "bd1a71915f6e61ae6ee5b234437d764b67dbdd1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/08b2aacdd8433abbba468f995d6d64b76a7a62ec",
-                "reference": "08b2aacdd8433abbba468f995d6d64b76a7a62ec",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/bd1a71915f6e61ae6ee5b234437d764b67dbdd1b",
+                "reference": "bd1a71915f6e61ae6ee5b234437d764b67dbdd1b",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-reflection": "*",
                 "ext-spl": "*",
                 "php": ">=5.3.3",
-                "phpspec/prophecy": "~1.3,>=1.3.1",
-                "phpunit/php-code-coverage": "~2.0,>=2.0.11",
-                "phpunit/php-file-iterator": "~1.4",
-                "phpunit/php-text-template": "~1.2",
-                "phpunit/php-timer": "~1.0",
-                "phpunit/phpunit-mock-objects": "~2.3",
-                "sebastian/comparator": "~1.1",
-                "sebastian/diff": "~1.2",
-                "sebastian/environment": "~1.2",
-                "sebastian/exporter": "~1.2",
-                "sebastian/global-state": "~1.0",
-                "sebastian/version": "~1.0",
-                "symfony/yaml": "~2.1|~3.0"
+                "phpunit/php-code-coverage": ">=1.2.1",
+                "phpunit/php-file-iterator": ">=1.3.1",
+                "phpunit/php-text-template": ">=1.1.1",
+                "phpunit/php-timer": ">=1.0.2",
+                "phpunit/phpunit-mock-objects": ">=1.2.0",
+                "symfony/yaml": ">=2.1.0"
             },
             "suggest": {
-                "phpunit/php-invoker": "~1.1"
+                "ext-json": "*",
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "phpunit/php-invoker": ">=1.1.0"
             },
             "bin": [
-                "phpunit"
+                "composer/bin/phpunit"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.6.x-dev"
+                    "dev-master": "3.7.x-dev"
                 }
             },
             "autoload": {
                 "classmap": [
-                    "src/"
-                ],
-                "files": [
-                    "src/Framework/Assert/Functions.php"
+                    "PHPUnit/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "",
+                "../../symfony/yaml/"
+            ],
             "license": [
                 "BSD-3-Clause"
             ],
@@ -622,13 +621,13 @@
                 }
             ],
             "description": "The PHP Unit Testing framework.",
-            "homepage": "https://phpunit.de/",
+            "homepage": "http://www.phpunit.de/",
             "keywords": [
                 "phpunit",
                 "testing",
                 "xunit"
             ],
-            "time": "2015-04-03 13:46:59"
+            "time": "2012-11-06 21:40:22"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1107,7 +1106,6 @@
             "time": "2015-03-30 15:54:10"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
