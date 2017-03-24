@@ -1,4 +1,6 @@
-# CakePHP 2.x JWT Authentication #
+# CakePHP 2.x JWT Authentication (DEAD) #
+
+This project is no longer being actively developed.
 
 This plugin is a CakePHP 2.x Authentication component and view helper for JWT.
 
